@@ -78,7 +78,7 @@ def get_topic_questions(topic, num_posts, driver_location):
 		if counter > 15:
 			print 'Please help!!!!!!!!!'
 			time.sleep(60)
-		if counter > 2:
+		if counter > 20:
 			write_now(file_question_urls, file_questions, starting_point, browser)
 			print 'Starting again!'
 			browser.quit()
